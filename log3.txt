@@ -6830,4 +6830,185 @@ Warning: Permanently added the ECDSA host key for IP address '140.82.114.3' to t
 To github.com:katlasainaveen/V-L-GenerativeImage2Text.git
  [31m! [rejected]       [m main -> main (non-fast-forward)
 [31merror: failed to push some refs to 'git@github.com:katlasainaveen/V-L-GenerativeImage2Text.git'
-[m[33mhint: Updates were rejected because the ti
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. Integrate the remote changes (e.g.[m
+[33mhint: 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ ls
+[0m[01;34maux_data[0m  CODE_OF_CONDUCT.md    [01;34mgenerativeimage2text.egg-info[0m  LICENSE   logfile2.txt  [01;34moutput[0m     requirements.txt  setup.py
+[01;34mbuild[0m     [01;34mgenerativeimage2text[0m  [01;34minference[0m                      log4.txt  MANIFEST.in   README.md  SECURITY.md       SUPPORT.md
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ cd ..
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ cp /home/paperspace/.azcopy/ ./
+cp: -r not specified; omitting directory '/home/paperspace/.azcopy/'
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ cp /home/paperspace/.azcopy/ ./[C[C[C[1@ [1@-[1@r
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mazcopy_linux_amd64_10.22.0[0m  [01;34mazfuse[0m  downloadazcopy-v10-linux  [01;34mGenerativeImage2Text[0m  log3.txt  logfile.txt
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ lscp -r /home/paperspace/.azcopy/ ./[K[K/home/paperspace/Desktop/
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mazcopy_linux_amd64_10.22.0[0m  [01;34mazfuse[0m  downloadazcopy-v10-linux  [01;34mGenerativeImage2Text[0m  log3.txt  logfile.txt
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ ls -a 
+[0m[01;34m.[0m  [01;34m..[0m  [01;34m.azcopy[0m  [01;34mazcopy_linux_amd64_10.22.0[0m  [01;34mazfuse[0m  downloadazcopy-v10-linux  [01;34mGenerativeImage2Text[0m  [01;34m.git[0m  log3.txt  logfile.txt
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git add .
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git status 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   .azcopy/022ce130-1b5b-034a-7e0c-62d62582067d-scanning.log[m
+	[32mnew file:   .azcopy/022ce130-1b5b-034a-7e0c-62d62582067d.log[m
+	[32mnew file:   .azcopy/03f184bb-3aea-4e4f-783a-e7909c341991-scanning.log[m
+	[32mnew file:   .azcopy/03f184bb-3aea-4e4f-783a-e7909c341991.log[m
+	[32mnew file:   .azcopy/07dd3dc7-7ffd-a647-4d0f-ccb9189151ac-scanning.log[m
+	[32mnew file:   .azcopy/07dd3dc7-7ffd-a647-4d0f-ccb9189151ac.log[m
+	[32mnew file:   .azcopy/0a53508e-099c-7c43-61a5-a72bc13ea6fc-scanning.log[m
+	[32mnew file:   .azcopy/0a53508e-099c-7c43-61a5-a72bc13ea6fc.log[m
+	[32mnew file:   .azcopy/0c2f3edf-ab11-6442-4d83-2299e9c05c02-scanning.log[m
+	[32mnew file:   .azcopy/0c2f3edf-ab11-6442-4d83-2299e9c05c02.log[m
+	[32mnew file:   .azcopy/4e3f866b-daef-0441-5cf5-7c2e9a941eff-scanning.log[m
+	[32mnew file:   .azcopy/4e3f866b-daef-0441-5cf5-7c2e9a941eff.log[m
+	[32mnew file:   .azcopy/51e05445-e866-b04a-4d98-30be7bb93e9f-scanning.log[m
+	[32mnew file:   .azcopy/51e05445-e866-b04a-4d98-30be7bb93e9f.log[m
+	[32mnew file:   .azcopy/5f71459e-2345-c844-4c12-2a001f1e905d-scanning.log[m
+	[32mnew file:   .azcopy/5f71459e-2345-c844-4c12-2a001f1e905d.log[m
+	[32mnew file:   .azcopy/8188a049-0a26-8f40-7da1-76be16cb7f93-scanning.log[m
+	[32mnew file:   .azcopy/8188a049-0a26-8f40-7da1-76be16cb7f93.log[m
+	[32mnew file:   .azcopy/85ef3cc3-04dd-164f-4519-99631a79dc35-scanning.log[m
+	[32mnew file:   .azcopy/85ef3cc3-04dd-164f-4519-99631a79dc35.log[m
+	[32mnew file:   .azcopy/8a2bb640-7b2f-c148-440b-83dbca67945d-scanning.log[m
+	[32mnew file:   .azcopy/8a2bb640-7b2f-c148-440b-83dbca67945d.log[m
+	[32mnew file:   .azcopy/8b6ad45e-094d-2844-435f-fb319501727d-scanning.log[m
+	[32mnew file:   .azcopy/8b6ad45e-094d-2844-435f-fb319501727d.log[m
+	[32mnew file:   .azcopy/a31e0cb0-0318-b642-6052-040e0fa7df05-scanning.log[m
+	[32mnew file:   .azcopy/a31e0cb0-0318-b642-6052-040e0fa7df05.log[m
+	[32mnew file:   .azcopy/a781090a-4cf2-cb4b-5ff1-299aa6eec4a7-scanning.log[m
+	[32mnew file:   .azcopy/a781090a-4cf2-cb4b-5ff1-299aa6eec4a7.log[m
+	[32mnew file:   .azcopy/aae21166-6038-e74f-73ff-6ef92d8fa3ed-scanning.log[m
+	[32mnew file:   .azcopy/aae21166-6038-e74f-73ff-6ef92d8fa3ed.log[m
+	[32mnew file:   .azcopy/ccf3277e-d9bc-8549-70b7-b4a699a2a063-scanning.log[m
+	[32mnew file:   .azcopy/ccf3277e-d9bc-8549-70b7-b4a699a2a063.log[m
+	[32mnew file:   .azcopy/e3e83ccb-b431-074d-56e0-5ed241dc3c6f-scanning.log[m
+	[32mnew file:   .azcopy/e3e83ccb-b431-074d-56e0-5ed241dc3c6f.log[m
+	[32mnew file:   .azcopy/latest_version.txt[m
+	[32mnew file:   .azcopy/plans/022ce130-1b5b-034a-7e0c-62d62582067d--00000.steV18[m
+	[32mnew file:   .azcopy/plans/03f184bb-3aea-4e4f-783a-e7909c341991--00000.steV18[m
+	[32mnew file:   .azcopy/plans/07dd3dc7-7ffd-a647-4d0f-ccb9189151ac--00000.steV18[m
+	[32mnew file:   .azcopy/plans/0a53508e-099c-7c43-61a5-a72bc13ea6fc--00000.steV18[m
+	[32mnew file:   .azcopy/plans/0c2f3edf-ab11-6442-4d83-2299e9c05c02--00000.steV18[m
+	[32mnew file:   .azcopy/plans/4e3f866b-daef-0441-5cf5-7c2e9a941eff--00000.steV18[m
+	[32mnew file:   .azcopy/plans/51e05445-e866-b04a-4d98-30be7bb93e9f--00000.steV18[m
+	[32mnew file:   .azcopy/plans/5f71459e-2345-c844-4c12-2a001f1e905d--00000.steV18[m
+	[32mnew file:   .azcopy/plans/8188a049-0a26-8f40-7da1-76be16cb7f93--00000.steV18[m
+	[32mnew file:   .azcopy/plans/85ef3cc3-04dd-164f-4519-99631a79dc35--00000.steV18[m
+	[32mnew file:   .azcopy/plans/8a2bb640-7b2f-c148-440b-83dbca67945d--00000.steV18[m
+	[32mnew file:   .azcopy/plans/8b6ad45e-094d-2844-435f-fb319501727d--00000.steV18[m
+	[32mnew file:   .azcopy/plans/a31e0cb0-0318-b642-6052-040e0fa7df05--00000.steV18[m
+	[32mnew file:   .azcopy/plans/a781090a-4cf2-cb4b-5ff1-299aa6eec4a7--00000.steV18[m
+	[32mnew file:   .azcopy/plans/aae21166-6038-e74f-73ff-6ef92d8fa3ed--00000.steV18[m
+	[32mnew file:   .azcopy/plans/ccf3277e-d9bc-8549-70b7-b4a699a2a063--00000.steV18[m
+	[32mnew file:   .azcopy/plans/e3e83ccb-b431-074d-56e0-5ed241dc3c6f--00000.steV18[m
+	[32mmodified:   log3.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   GenerativeImage2Text[m (modified content)
+	[31mmodified:   azfuse[m (untracked content)
+
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git commit -m "log files" "c"o"p"i"e"d"
+[main 361229e] log files copied
+ 53 files changed, 12776 insertions(+), 1 deletion(-)
+ create mode 100644 .azcopy/022ce130-1b5b-034a-7e0c-62d62582067d-scanning.log
+ create mode 100644 .azcopy/022ce130-1b5b-034a-7e0c-62d62582067d.log
+ create mode 100644 .azcopy/03f184bb-3aea-4e4f-783a-e7909c341991-scanning.log
+ create mode 100644 .azcopy/03f184bb-3aea-4e4f-783a-e7909c341991.log
+ create mode 100644 .azcopy/07dd3dc7-7ffd-a647-4d0f-ccb9189151ac-scanning.log
+ create mode 100644 .azcopy/07dd3dc7-7ffd-a647-4d0f-ccb9189151ac.log
+ create mode 100644 .azcopy/0a53508e-099c-7c43-61a5-a72bc13ea6fc-scanning.log
+ create mode 100644 .azcopy/0a53508e-099c-7c43-61a5-a72bc13ea6fc.log
+ create mode 100644 .azcopy/0c2f3edf-ab11-6442-4d83-2299e9c05c02-scanning.log
+ create mode 100644 .azcopy/0c2f3edf-ab11-6442-4d83-2299e9c05c02.log
+ create mode 100644 .azcopy/4e3f866b-daef-0441-5cf5-7c2e9a941eff-scanning.log
+ create mode 100644 .azcopy/4e3f866b-daef-0441-5cf5-7c2e9a941eff.log
+ create mode 100644 .azcopy/51e05445-e866-b04a-4d98-30be7bb93e9f-scanning.log
+ create mode 100644 .azcopy/51e05445-e866-b04a-4d98-30be7bb93e9f.log
+ create mode 100644 .azcopy/5f71459e-2345-c844-4c12-2a001f1e905d-scanning.log
+ create mode 100644 .azcopy/5f71459e-2345-c844-4c12-2a001f1e905d.log
+ create mode 100644 .azcopy/8188a049-0a26-8f40-7da1-76be16cb7f93-scanning.log
+ create mode 100644 .azcopy/8188a049-0a26-8f40-7da1-76be16cb7f93.log
+ create mode 100644 .azcopy/85ef3cc3-04dd-164f-4519-99631a79dc35-scanning.log
+ create mode 100644 .azcopy/85ef3cc3-04dd-164f-4519-99631a79dc35.log
+ create mode 100644 .azcopy/8a2bb640-7b2f-c148-440b-83dbca67945d-scanning.log
+ create mode 100644 .azcopy/8a2bb640-7b2f-c148-440b-83dbca67945d.log
+ create mode 100644 .azcopy/8b6ad45e-094d-2844-435f-fb319501727d-scanning.log
+ create mode 100644 .azcopy/8b6ad45e-094d-2844-435f-fb319501727d.log
+ create mode 100644 .azcopy/a31e0cb0-0318-b642-6052-040e0fa7df05-scanning.log
+ create mode 100644 .azcopy/a31e0cb0-0318-b642-6052-040e0fa7df05.log
+ create mode 100644 .azcopy/a781090a-4cf2-cb4b-5ff1-299aa6eec4a7-scanning.log
+ create mode 100644 .azcopy/a781090a-4cf2-cb4b-5ff1-299aa6eec4a7.log
+ create mode 100644 .azcopy/aae21166-6038-e74f-73ff-6ef92d8fa3ed-scanning.log
+ create mode 100644 .azcopy/aae21166-6038-e74f-73ff-6ef92d8fa3ed.log
+ create mode 100644 .azcopy/ccf3277e-d9bc-8549-70b7-b4a699a2a063-scanning.log
+ create mode 100644 .azcopy/ccf3277e-d9bc-8549-70b7-b4a699a2a063.log
+ create mode 100644 .azcopy/e3e83ccb-b431-074d-56e0-5ed241dc3c6f-scanning.log
+ create mode 100644 .azcopy/e3e83ccb-b431-074d-56e0-5ed241dc3c6f.log
+ create mode 100644 .azcopy/latest_version.txt
+ create mode 100644 .azcopy/plans/022ce130-1b5b-034a-7e0c-62d62582067d--00000.steV18
+ create mode 100644 .azcopy/plans/03f184bb-3aea-4e4f-783a-e7909c341991--00000.steV18
+ create mode 100644 .azcopy/plans/07dd3dc7-7ffd-a647-4d0f-ccb9189151ac--00000.steV18
+ create mode 100644 .azcopy/plans/0a53508e-099c-7c43-61a5-a72bc13ea6fc--00000.steV18
+ create mode 100644 .azcopy/plans/0c2f3edf-ab11-6442-4d83-2299e9c05c02--00000.steV18
+ create mode 100644 .azcopy/plans/4e3f866b-daef-0441-5cf5-7c2e9a941eff--00000.steV18
+ create mode 100644 .azcopy/plans/51e05445-e866-b04a-4d98-30be7bb93e9f--00000.steV18
+ create mode 100644 .azcopy/plans/5f71459e-2345-c844-4c12-2a001f1e905d--00000.steV18
+ create mode 100644 .azcopy/plans/8188a049-0a26-8f40-7da1-76be16cb7f93--00000.steV18
+ create mode 100644 .azcopy/plans/85ef3cc3-04dd-164f-4519-99631a79dc35--00000.steV18
+ create mode 100644 .azcopy/plans/8a2bb640-7b2f-c148-440b-83dbca67945d--00000.steV18
+ create mode 100644 .azcopy/plans/8b6ad45e-094d-2844-435f-fb319501727d--00000.steV18
+ create mode 100644 .azcopy/plans/a31e0cb0-0318-b642-6052-040e0fa7df05--00000.steV18
+ create mode 100644 .azcopy/plans/a781090a-4cf2-cb4b-5ff1-299aa6eec4a7--00000.steV18
+ create mode 100644 .azcopy/plans/aae21166-6038-e74f-73ff-6ef92d8fa3ed--00000.steV18
+ create mode 100644 .azcopy/plans/ccf3277e-d9bc-8549-70b7-b4a699a2a063--00000.steV18
+ create mode 100644 .azcopy/plans/e3e83ccb-b431-074d-56e0-5ed241dc3c6f--00000.steV18
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git push
+Enumerating objects: 59, done.
+Counting objects:   1% (1/59)Counting objects:   3% (2/59)Counting objects:   5% (3/59)Counting objects:   6% (4/59)Counting objects:   8% (5/59)Counting objects:  10% (6/59)Counting objects:  11% (7/59)Counting objects:  13% (8/59)Counting objects:  15% (9/59)Counting objects:  16% (10/59)Counting objects:  18% (11/59)Counting objects:  20% (12/59)Counting objects:  22% (13/59)Counting objects:  23% (14/59)Counting objects:  25% (15/59)Counting objects:  27% (16/59)Counting objects:  28% (17/59)Counting objects:  30% (18/59)Counting objects:  32% (19/59)Counting objects:  33% (20/59)Counting objects:  35% (21/59)Counting objects:  37% (22/59)Counting objects:  38% (23/59)Counting objects:  40% (24/59)Counting objects:  42% (25/59)Counting objects:  44% (26/59)Counting objects:  45% (27/59)Counting objects:  47% (28/59)Counting objects:  49% (29/59)Counting objects:  50% (30/59)Counting objects:  52% (31/59)Counting objects:  54% (32/59)Counting objects:  55% (33/59)Counting objects:  57% (34/59)Counting objects:  59% (35/59)Counting objects:  61% (36/59)Counting objects:  62% (37/59)Counting objects:  64% (38/59)Counting objects:  66% (39/59)Counting objects:  67% (40/59)Counting objects:  69% (41/59)Counting objects:  71% (42/59)Counting objects:  72% (43/59)Counting objects:  74% (44/59)Counting objects:  76% (45/59)Counting objects:  77% (46/59)Counting objects:  79% (47/59)Counting objects:  81% (48/59)Counting objects:  83% (49/59)Counting objects:  84% (50/59)Counting objects:  86% (51/59)Counting objects:  88% (52/59)Counting objects:  89% (53/59)Counting objects:  91% (54/59)Counting objects:  93% (55/59)Counting objects:  94% (56/59)Counting objects:  96% (57/59)Counting objects:  98% (58/59)Counting objects: 100% (59/59)Counting objects: 100% (59/59), done.
+Delta compression using up to 8 threads
+Compressing objects:   1% (1/56)Compressing objects:   3% (2/56)Compressing objects:   5% (3/56)Compressing objects:   7% (4/56)Compressing objects:   8% (5/56)Compressing objects:  10% (6/56)Compressing objects:  12% (7/56)Compressing objects:  14% (8/56)Compressing objects:  16% (9/56)Compressing objects:  17% (10/56)Compressing objects:  19% (11/56)Compressing objects:  21% (12/56)Compressing objects:  23% (13/56)Compressing objects:  25% (14/56)Compressing objects:  26% (15/56)Compressing objects:  28% (16/56)Compressing objects:  30% (17/56)Compressing objects:  32% (18/56)Compressing objects:  33% (19/56)Compressing objects:  35% (20/56)Compressing objects:  37% (21/56)Compressing objects:  39% (22/56)Compressing objects:  41% (23/56)Compressing objects:  42% (24/56)Compressing objects:  44% (25/56)Compressing objects:  46% (26/56)Compressing objects:  48% (27/56)Compressing objects:  50% (28/56)Compressing objects:  51% (29/56)Compressing objects:  53% (30/56)Compressing objects:  55% (31/56)Compressing objects:  57% (32/56)Compressing objects:  58% (33/56)Compressing objects:  60% (34/56)Compressing objects:  62% (35/56)Compressing objects:  64% (36/56)Compressing objects:  66% (37/56)Compressing objects:  67% (38/56)Compressing objects:  69% (39/56)Compressing objects:  71% (40/56)Compressing objects:  73% (41/56)Compressing objects:  75% (42/56)Compressing objects:  76% (43/56)Compressing objects:  78% (44/56)Compressing objects:  80% (45/56)Compressing objects:  82% (46/56)Compressing objects:  83% (47/56)Compressing objects:  85% (48/56)Compressing objects:  87% (49/56)Compressing objects:  89% (50/56)Compressing objects:  91% (51/56)Compressing objects:  92% (52/56)Compressing objects:  94% (53/56)Compressing objects:  96% (54/56)Compressing objects:  98% (55/56)Compressing objects: 100% (56/56)Compressing objects: 100% (56/56), done.
+Writing objects:   1% (1/57)Writing objects:   3% (2/57)Writing objects:   5% (3/57)Writing objects:   8% (5/57)Writing objects:  12% (7/57)Writing objects:  15% (9/57)Writing objects:  19% (11/57)Writing objects:  22% (13/57)Writing objects:  24% (14/57)Writing objects:  26% (15/57)Writing objects:  31% (18/57)Writing objects:  33% (19/57)Writing objects:  35% (20/57)Writing objects:  36% (21/57)Writing objects:  40% (23/57)Writing objects:  42% (24/57)Writing objects:  45% (26/57)Writing objects:  47% (27/57)Writing objects:  49% (28/57)Writing objects:  50% (29/57)Writing objects:  52% (30/57)Writing objects:  56% (32/57)Writing objects:  57% (33/57)Writing objects:  59% (34/57)Writing objects:  61% (35/57)Writing objects:  63% (36/57)Writing objects:  64% (37/57)Writing objects:  66% (38/57)Writing objects:  68% (39/57)Writing objects:  73% (42/57)Writing objects:  77% (44/57)Writing objects:  78% (45/57)Writing objects:  80% (46/57)Writing objects:  82% (47/57)Writing objects:  84% (48/57)Writing objects:  85% (49/57)Writing objects:  89% (51/57)Writing objects:  91% (52/57)Writing objects:  92% (53/57)Writing objects:  94% (54/57)Writing objects:  96% (55/57)Writing objects:  98% (56/57)Writing objects: 100% (57/57)Writing objects: 100% (57/57), 111.33 KiB | 1.25 MiB/s, done.
+Total 57 (delta 41), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/41)[Kremote: Resolving deltas:   2% (1/41)[Kremote: Resolving deltas:   4% (2/41)[Kremote: Resolving deltas:   7% (3/41)[Kremote: Resolving deltas:   9% (4/41)[Kremote: Resolving deltas:  12% (5/41)[Kremote: Resolving deltas:  14% (6/41)[Kremote: Resolving deltas:  17% (7/41)[Kremote: Resolving deltas:  19% (8/41)[Kremote: Resolving deltas:  21% (9/41)[Kremote: Resolving deltas:  24% (10/41)[Kremote: Resolving deltas:  26% (11/41)[Kremote: Resolving deltas:  29% (12/41)[Kremote: Resolving deltas:  31% (13/41)[Kremote: Resolving deltas:  34% (14/41)[Kremote: Resolving deltas:  36% (15/41)[Kremote: Resolving deltas:  39% (16/41)[Kremote: Resolving deltas:  41% (17/41)[Kremote: Resolving deltas:  43% (18/41)[Kremote: Resolving deltas:  46% (19/41)[Kremote: Resolving deltas:  48% (20/41)[Kremote: Resolving deltas:  51% (21/41)[Kremote: Resolving deltas:  53% (22/41)[Kremote: Resolving deltas:  56% (23/41)[Kremote: Resolving deltas:  58% (24/41)[Kremote: Resolving deltas:  60% (25/41)[Kremote: Resolving deltas:  63% (26/41)[Kremote: Resolving deltas:  65% (27/41)[Kremote: Resolving deltas:  68% (28/41)[Kremote: Resolving deltas:  70% (29/41)[Kremote: Resolving deltas:  73% (30/41)[Kremote: Resolving deltas:  75% (31/41)[Kremote: Resolving deltas:  78% (32/41)[Kremote: Resolving deltas:  80% (33/41)[Kremote: Resolving deltas:  82% (34/41)[Kremote: Resolving deltas:  85% (35/41)[Kremote: Resolving deltas:  87% (36/41)[Kremote: Resolving deltas:  90% (37/41)[Kremote: Resolving deltas:  92% (38/41)[Kremote: Resolving deltas:  95% (39/41)[Kremote: Resolving deltas:  97% (40/41)[Kremote: Resolving deltas: 100% (41/41)[Kremote: Resolving deltas: 100% (41/41), completed with 2 local objects.[K
+To github.com:katlasainaveen/V-L-GenerativeImage2Text.git
+   be62864..361229e  main -> main
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git [Kgit status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   GenerativeImage2Text[m (modified content)
+	[31mmodified:   azfuse[m (untracked content)
+	[31mmodified:   log3.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git add GenerativeImage2Text/
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git commit -m "Genrative[K[K[K[K[K[Kerative folder"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   GenerativeImage2Text[m (modified content)
+	[31mmodified:   azfuse[m (untracked content)
+	[31mmodified:   log3.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ gt[Kit push
+Everything up-to-date
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mazcopy_linux_amd64_10.22.0[0m  [01;34mazfuse[0m  downloadazcopy-v10-linux  [01;34mGenerati
