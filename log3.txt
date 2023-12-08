@@ -7011,4 +7011,171 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ gt[Kit push
 Everything up-to-date
 ]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ ls
-[0m[01;34mazcopy_linux_amd64_10.22.0[0m  [01;34mazfuse[0m  downloadazcopy-v10-linux  [01;34mGenerati
+[0m[01;34mazcopy_linux_amd64_10.22.0[0m  [01;34mazfuse[0m  downloadazcopy-v10-linux  [01;34mGenerativeImage2Text[0m  log3.txt  logfile.txt
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ cd GenerativeImage2Text/
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ rm -rf .git
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ cd ..
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git add .
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git status 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   log3.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   azfuse[m (untracked content)
+
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git commit -m "chnages"
+[main d2b1c89] chnages
+ 1 file changed, 182 insertions(+), 1 deletion(-)
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git push 
+Warning: Permanently added the ECDSA host key for IP address '140.82.112.3' to the list of known hosts.
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 2.78 KiB | 51.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:katlasainaveen/V-L-GenerativeImage2Text.git
+   361229e..d2b1c89  main -> main
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mazcopy_linux_amd64_10.22.0[0m  [01;34mazfuse[0m  downloadazcopy-v10-linux  [01;34mGenerativeImage2Text[0m  log3.txt  logfile.txt
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git status 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   azfuse[m (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git add GenerativeImage2Text/
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git add GenerativeImage2Text/status [K
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   azfuse[m (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git commt=i[K[K[Kit -a
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	[31mmodified:   azfuse[m (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mazcopy_linux_amd64_10.22.0[0m  [01;34mazfuse[0m  downloadazcopy-v10-linux  [01;34mGenerativeImage2Text[0m  log3.txt  logfile.txt
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ cd GenerativeImage2Text/
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ ls
+[0m[01;34maux_data[0m  CODE_OF_CONDUCT.md    [01;34mgenerativeimage2text.egg-info[0m  LICENSE   logfile2.txt  [01;34moutput[0m     requirements.txt  setup.py
+[01;34mbuild[0m     [01;34mgenerativeimage2text[0m  [01;34minference[0m                      log4.txt  MANIFEST.in   README.md  SECURITY.md       SUPPORT.md
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ git add .
+fatal: in unpopulated submodule 'GenerativeImage2Text'
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ git init 
+Initialized empty Git repository in /home/paperspace/Desktop/GenerativeImage2Text/.git/
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ git add .
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ git git remote add origin git@github.com:katlasainaveen/V-L-GenerativeImage2Text.git
+git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ git git remote add origin git@github.com:katlasainaveen/V-L-GenerativeImage2Text.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ git commit -m "Genrative[K[K[K[K[K[Kerative [KImage2Text folder"
+[master (root-commit) 8a0d037] GenerativeImage2Text folder
+ 61 files changed, 16475 insertions(+)
+ create mode 100644 .github/workflows/test-build.yml
+ create mode 100644 .gitignore
+ create mode 100644 CODE_OF_CONDUCT.md
+ create mode 100644 LICENSE
+ create mode 100644 MANIFEST.in
+ create mode 100644 README.md
+ create mode 100644 SECURITY.md
+ create mode 100644 SUPPORT.md
+ create mode 100644 aux_data/configs/azfuse.yaml
+ create mode 100644 aux_data/images/1.jpg
+ create mode 100644 aux_data/images/2.jpg
+ create mode 100644 aux_data/models/GIT_BASE_MSRVTT/parameter.yaml
+ create mode 100644 aux_data/models/GIT_BASE_MSRVTT_QA/parameter.yaml
+ create mode 100644 aux_data/models/GIT_BASE_TEXTVQA/parameter.yaml
+ create mode 100644 aux_data/models/GIT_BASE_VATEX/parameter.yaml
+ create mode 100644 aux_data/models/GIT_BASE_VQAv2/parameter.yaml
+ create mode 100644 aux_data/models/GIT_LARGE/parameter.yaml
+ create mode 100644 aux_data/models/GIT_LARGE_COCO/parameter.yaml
+ create mode 100644 aux_data/models/GIT_LARGE_MSRVTT/parameter.yaml
+ create mode 100644 aux_data/models/GIT_LARGE_MSRVTT_QA/parameter.yaml
+ create mode 100644 aux_data/models/GIT_LARGE_R/parameter.yaml
+ create mode 100644 aux_data/models/GIT_LARGE_R_COCO/parameter.yaml
+ create mode 100644 aux_data/models/GIT_LARGE_R_TEXTCAPS/parameter.yaml
+ create mode 100644 aux_data/models/GIT_LARGE_TEXTCAPS/parameter.yaml
+ create mode 100644 aux_data/models/GIT_LARGE_TEXTVQA/parameter.yaml
+ create mode 100644 aux_data/models/GIT_LARGE_VATEX/parameter.yaml
+ create mode 100644 aux_data/models/GIT_LARGE_VQAv2/parameter.yaml
+ create mode 100644 aux_data/storage_account/publicgit.yaml
+ create mode 100644 generativeimage2text/__init__.py
+ create mode 100644 generativeimage2text/common.py
+ create mode 100644 generativeimage2text/data_layer/__init__.py
+ create mode 100644 generativeimage2text/data_layer/builder.py
+ create mode 100644 generativeimage2text/data_layer/transform.py
+ create mode 100644 generativeimage2text/data_prepare.py
+ create mode 100644 generativeimage2text/inference.py
+ create mode 100644 generativeimage2text/layers/CLIP/__init__.py
+ create mode 100644 generativeimage2text/layers/CLIP/clip.py
+ create mode 100644 generativeimage2text/layers/CLIP/model.py
+ create mode 100644 generativeimage2text/layers/__init__.py
+ create mode 100644 generativeimage2text/layers/bert/__init__.py
+ create mode 100644 generativeimage2text/layers/bert/activations.py
+ create mode 100644 generativeimage2text/layers/bert/file_utils.py
+ create mode 100644 generativeimage2text/layers/bert/modeling_bert.py
+ create mode 100644 generativeimage2text/layers/bert/modeling_utils.py
+ create mode 100644 generativeimage2text/layers/decoder.py
+ create mode 100644 generativeimage2text/model.py
+ create mode 100644 generativeimage2text/process_image.py
+ create mode 100644 generativeimage2text/taxonomy.py
+ create mode 100644 generativeimage2text/torch_common.py
+ create mode 100644 generativeimage2text/train.py
+ create mode 100644 generativeimage2text/trie_decoder.py
+ create mode 100644 generativeimage2text/tsv_io.py
+ create mode 100644 inference/GIT_BASE_COCO/coco.eval.json
+ create mode 100644 inference/GIT_BASE_COCO/coco.lineidx
+ create mode 100644 inference/GIT_BASE_COCO/coco.lineidx.8b
+ create mode 100644 inference/GIT_BASE_COCO/coco.tsv
+ create mode 100644 inference/GIT_BASE_COCO/coco_coco_format.json
+ create mode 100644 log4.txt
+ create mode 100644 logfile2.txt
+ create mode 100644 requirements.txt
+ create mode 100644 setup.py
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ git push 
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ git [Kgit checkout -b new_branch_name[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgenrat[K[K[KeartiveI2T
+Switched to a new branch 'geneartiveI2T'
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ git add .
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ git sttaus[K[K[K[Katus
+On branch geneartiveI2T
+nothing to commit, working tree clean
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ git push -u origin new_branch_namegeneartiveI2T[K[K[K[KgeneartiveI2T
+Enumerating objects: 67, done.
+Counting objects:   1% (1/67)Counting objects:   2% (2/67)Counting objects:   4% (3/67)Counting objects:   5% (4/67)Counting objects:   7% (5/67)Counting objects:   8% (6/67)Counting objects:  10% (7/67)Counting objects:  11% (8/67)Counting objects:  13% (9/67)Counting objects:  14% (10/67)Counting objects:  16% (11/67)Counting objects:  17% (12/67)Counting objects:  19% (13/67)Counting objects:  20% (14/67)Counting objects:  22% (15/67)Counting objects:  23% (16/67)Counting objects:  25% (17/67)Counting objects:  26% (18/67)Counting objects:  28% (19/67)Counting objects:  29% (20/67)Counting objects:  31% (21/67)Counting objects:  32% (22/67)Counting objects:  34% (23/67)Counting objects:  35% (24/67)Counting objects:  37% (25/67)Counting objects:  38% (26/67)Counting objects:  40% (27/67)Counting objects:  41% (28/67)Counting objects:  43% (29/67)Counting objects:  44% (30/67)Counting objects:  46% (31/67)Counting objects:  47% (32/67)Counting objects:  49% (33/67)Counting objects:  50% (34/67)Counting objects:  52% (35/67)Counting objects:  53% (36/67)Counting objects:  55% (37/67)Counting objects:  56% (38/67)Counting objects:  58% (39/67)Counting objects:  59% (40/67)Counting objects:  61% (41/67)Counting objects:  62% (42/67)Counting objects:  64% (43/67)Counting objects:  65% (44/67)Counting objects:  67% (45/67)Counting objects:  68% (46/67)Counting objects:  70% (47/67)Counting objects:  71% (48/67)Counting objects:  73% (49/67)Counting objects:  74% (50/67)Counting objects:  76% (51/67)Counting objects:  77% (52/67)Counting objects:  79% (53/67)Counting objects:  80% (54/67)Counting objects:  82% (55/67)Counting objects:  83% (56/67)Counting objects:  85% (57/67)Counting objects:  86% (58/67)Counting objects:  88% (59/67)Counting objects:  89% (60/67)Counting objects:  91% (61/67)Counting objects:  92% (62/67)Counting objects:  94% (63/67)Counting objects:  95% (64/67)Counting objects:  97% (65/67)Counting objects:  98% (66/67)Counting objects: 100% (67/67)Counting objects: 100% (67/67), done.
+Delta compression using up to 8 threads
+Compressing objects:   1% (1/54)Compressing objects:   3% (2/54)Compressing objects:   5% (3/54)Compressing objects:   7% (4/54)Compressing objects:   9% (5/54)Compressing objects:  11% (6/54)Compressing objects:  12% (7/54)Compressing objects:  14% (8/54)Compressing objects:  16% (9/54)Compressing objects:  18% (10/54)Compressing objects:  20% (11/54)Compressing objects:  22% (12/54)Compressing objects:  24% (13/54)Compressing objects:  25% (14/54)Compressing objects:  27% (15/54)Compressing objects:  29% (16/54)Compressing objects:  31% (17/54)Compressing objects:  33% (18/54)Compressing objects:  35% (19/54)Compressing objects:  37% (20/54)Compressing objects:  38% (21/54)Compressing objects:  40% (22/54)Compressing objects:  42% (23/54)Compressing objects:  44% (24/54)Compressing objects:  46% (25/54)Compressing objects:  48% (26/54)Compressing objects:  50% (27/54)Compressing objects:  51% (28/54)Compressing objects:  53% (29/54)Compressing objects:  55% (30/54)Compressing objects:  57% (31/54)Compressing objects:  59% (32/54)Compressing objects:  61% (33/54)Compressing objects:  62% (34/54)Compressing objects:  64% (35/54)Compressing objects:  66% (36/54)Compressing objects:  68% (37/54)Compressing objects:  70% (38/54)Compressing objects:  72% (39/54)Compressing objects:  74% (40/54)Compressing objects:  75% (41/54)Compressing objects:  77% (42/54)Compressing objects:  79% (43/54)Compressing objects:  81% (44/54)Compressing objects:  83% (45/54)Compressing objects:  85% (46/54)Compressing objects:  87% (47/54)Compressing objects:  88% (48/54)Compressing objects:  90% (49/54)Compressing objects:  92% (50/54)Compressing objects:  94% (51/54)Compressing objects:  96% (52/54)Compressing objects:  98% (53/54)Compressing objects: 100% (54/54)Compressing objects: 100% (54/54), done.
+Writing objects:   1% (1/67)Writing objects:   2% (2/67)Writing objects:   4% (3/67)Writing objects:   5% (4/67)Writing objects:   7% (5/67)Writing objects:   8% (6/67)Writing objects:  10% (7/67)Writing objects:  11% (8/67)Writing objects:  13% (9/67)Writing objects:  14% (10/67)Writing objects:  16% (11/67)Writing objects:  17% (12/67)Writing objects:  19% (13/67)Writing objects:  20% (14/67)Writing objects:  22% (15/67)Writing objects:  23% (16/67)Writing objects:  25% (17/67)Writing objects:  26% (18/67)Writing objects:  28% (19/67)Writing objects:  29% (20/
