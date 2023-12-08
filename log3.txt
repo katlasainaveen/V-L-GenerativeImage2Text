@@ -6608,4 +6608,62 @@ Final Job Status: Completed
 inference.py:173:   1%|▊                                                                                                    | 646/81434 [3:03:00<238:27:18, 10.63s/it][Atsv_io.py:363: 3517it [3:03:10,  2.25s/it]tsv_io.py:363: 3519it [3:03:10,  3.21s/it]
 inference.py:173:   1%|▊                                                                                                    | 647/81434 [3:03:12<250:03:30, 11.14s/it][Atsv_io.py:363: 3521it [3:03:14,  2.74s/it]tsv_io.py:363: 3523it [3:03:18,  2.53s/it]
 inference.py:173:   1%|▊                                                                                                    | 648/81434 [3:03:20<224:15:17,  9.99s/it][Atsv_io.py:363: 3525it [3:03:25,  2.89s/it]^Z
-[1]+  Stopped                 AZFUSE_TSV_USE_FUSE=1 python -m generativeimage2text.inference -p "{'type': 'test_git_inference_single_tsv', 'image_tsv': 'data/TaxVQAv2/test.t
+[1]+  Stopped                 AZFUSE_TSV_USE_FUSE=1 python -m generativeimage2text.inference -p "{'type': 'test_git_inference_single_tsv', 'image_tsv': 'data/TaxVQAv2/test.tsv', 'model_name': 'GIT_BASE_VQAv2', 'question_tsv': 'data/TaxVQAv2/test.caption.tsv', 'out_tsv': 'inference/GIT_BASE_VQAv2/snapshot/vqav2.tsv', }"
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ exit
+exit
+There are stopped jobs.
+]0;paperspace@psybffhvzv5t: ~/Desktop/GenerativeImage2Text[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop/GenerativeImage2Text[00m$ cd ..
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git init 
+Initialized empty Git repository in /home/paperspace/Desktop/.git/
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git add .
+warning: adding embedded git repository: GenerativeImage2Text
+[33mhint: You've added another git repository inside your current repository.[m
+[33mhint: Clones of the outer repository will not contain the contents of[m
+[33mhint: the embedded repository and will not know how to obtain it.[m
+[33mhint: If you meant to add a submodule, use:[m
+[33mhint: [m
+[33mhint: 	git submodule add <url> GenerativeImage2Text[m
+[33mhint: [m
+[33mhint: If you added this path by mistake, you can remove it from the[m
+[33mhint: index with:[m
+[33mhint: [m
+[33mhint: 	git rm --cached GenerativeImage2Text[m
+[33mhint: [m
+[33mhint: See "git help submodule" for more information.[m
+warning: adding embedded git repository: azfuse
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git commit -m "first commit"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[K[C"p"i"[1P"u"s"h"n"[1P"i"n"g" "c"o"d"e"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'paperspace@psybffhvzv5t.(none)')
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git git branch -M main
+git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git branch -M main
+error: refname refs/heads/master not found
+fatal: Branch rename failed
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git config --global user.email "you@example.com"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"k"a"t"l"a"s"."n"a"v"e"e"n"@"g"m"a"i"l"."c"o"m"
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git config --global user.name "Your Name"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"S"a"i" "N"a"v"e"e"n" "K"a"t"l"a"
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git config --global user.name "Sai Naveen Katla"email "katlas.naveen@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch -M main[K[4@git [C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "pushing code"
+[master (root-commit) d18afe0] pushing code
+ 7 files changed, 17451 insertions(+)
+ create mode 160000 GenerativeImage2Text
+ create mode 100644 azcopy_linux_amd64_10.22.0/NOTICE.txt
+ create mode 100755 azcopy_linux_amd64_10.22.0/azcopy
+ create mode 160000 azfuse
+ create mode 100644 downloadazcopy-v10-linux
+ create mode 100644 log3.txt
+ create mode 100644 logfile.txt
+]0;paperspace@psybffhvzv5t: ~/Desktop[01;32mpaperspace@psybffhvzv5t[00m:[01;34m~/Desktop[00m$ git commit -m "pushing code"
+On branch master
+Changes not stage
